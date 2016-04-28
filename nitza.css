@@ -1,0 +1,120 @@
+.navbar-inverse {
+    background-color: hsla(328,36%,52%,1);
+    /*background-color: #683667;*/
+    border-color: #9799B5;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.navbar-brand {
+  font-family: "Lato";
+}
+
+/*body {
+    background: url(https://scontent.fhfa1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/11807603_443422665840268_4495150151205173892_o.jpg);
+    background-size: cover;
+    background-position: center; 
+}*/
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #C9C1C8;
+}
+
+.content{
+  padding-top: 25%;
+  text-align: center;
+  color: #61335A;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 275px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/*.parallax-container {
+  max-width: 960px;
+  margin: 0 auto;
+}*/
+
+section.module.content {
+  padding: 100px 0;
+  text-shadow: none;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module.parallax {
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url(https://scontent.fhfa1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/11807603_443422665840268_4495150151205173892_o.jpg);
+}
+
+#information {
+  background: url(https://scontent.ftlv1-1.fna.fbcdn.net/hphotos-xap1/t31.0-8/11845076_443424712506730_3942112340438036384_o.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#information .panel {
+  opacity: 0.85;
+}
+
+/*#img1, #img2 {
+  
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#img1 {
+  background: url(https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.0-9/11870663_443422669173601_1719758014238341998_n.jpg?oh=79e58fa0fdf6782642be049583a819ac&oe=57B9E3C3) no-repeat center center fixed;
+}
+
+#img2 {
+  background: url(https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.0-9/11811390_443424419173426_4001495602030561464_n.jpg?oh=17b7f4ba6b1296268fefeed8af826e27&oe=57C04CC8) no-repeat center center fixed;
+}*/
